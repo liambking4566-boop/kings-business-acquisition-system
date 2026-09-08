@@ -53,3 +53,20 @@ Track these numbers weekly in the issue or connected dashboard:
 ## Recommended first use case
 
 Start with a productised service that fits the existing construction ecosystem, such as a landlord maintenance package, pre-sale property refresh, minor works subscription, or a practical construction template/product bundle. These can be sold and tested with lower stock risk than importing an unproven physical product.
+
+## Performance improvement opportunities
+
+The operating system can speed up commercial decisions without increasing risk. The ten strongest improvements are:
+
+1. Add a fast-path triage step before forming the specialist team.
+2. Require a one-page decision backlog instead of long open-ended research briefs.
+3. Set a default research budget and hard stop-loss threshold for every role.
+4. Force evidence-tier tagging for every claim to reduce wasted follow-up work.
+5. Parallelise specialist research where dependencies allow instead of serialising low-value tasks.
+6. Standardise the owner approval template to reduce back-and-forth clarification.
+7. Run a margin gate before supplier and delivery analysis so weak economics are rejected early.
+8. Split tasks into mandatory evidence vs optional stretch work to keep the work focused.
+9. Add a "do not proceed" reason code for dead opportunities to shorten review cycles.
+10. Track weekly operating metrics so the best-performing pilot patterns are reused instead of re-tested.
+
+The highest-impact, lowest-effort improvement is the fast-path triage gate: it prevents needless specialist work on opportunities that fail basic customer, margin, and execution checks early.
