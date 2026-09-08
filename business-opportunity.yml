@@ -1,0 +1,75 @@
+name: Business opportunity
+description: Capture an opportunity for evidence-based commercial assessment.
+title: "[Opportunity]: "
+labels:
+  - business-opportunity
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Provide enough detail to test the opportunity without committing money,
+        stock, advertising, or delivery promises.
+  - type: textarea
+    id: opportunity
+    attributes:
+      label: Opportunity and customer problem
+      description: What problem exists, who experiences it, and what are they doing today?
+      placeholder: Describe the customer, painful job to be done, and current alternatives.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-offer
+    attributes:
+      label: Proposed offer and Kings advantage
+      description: What product or service could solve the problem, and why can Kings deliver it better?
+    validations:
+      required: true
+  - type: input
+    id: geography-channel
+    attributes:
+      label: Sales geography and channel
+      placeholder: e.g. Brisbane, direct sales to property managers
+    validations:
+      required: true
+  - type: input
+    id: target-price
+    attributes:
+      label: Target sale price and currency
+      placeholder: e.g. AUD 750 per package
+    validations:
+      required: true
+  - type: input
+    id: target-margin
+    attributes:
+      label: Target gross or contribution margin
+      placeholder: e.g. 45% contribution margin after fulfilment
+    validations:
+      required: true
+  - type: input
+    id: starting-cash
+    attributes:
+      label: Starting cash available
+      placeholder: e.g. AUD 2,000
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and known risks
+      description: Include licences, time, equipment, storage, delivery capability, insurance, or brand concerns.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Existing evidence and assumptions
+      description: Separate verified facts, estimates, assumptions, and links or dates for time-sensitive claims.
+    validations:
+      required: true
+  - type: checkboxes
+    id: approval-boundary
+    attributes:
+      label: Approval boundary
+      options:
+        - label: I understand that this request is for research and recommendations only; no spend, order, contract, regulated work, or launch is authorised.
+          required: true
