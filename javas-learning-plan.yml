@@ -1,0 +1,59 @@
+version: 1
+owner: liambking4566
+timezone: Australia/Brisbane
+learning_items:
+  - id: diploma-building-construction
+    name: Diploma of Building & Construction
+    stream: personal-learning
+    category: accredited-qualification
+    status: active
+    next_action: Record current subjects, assessment dates, and remaining requirements.
+    verification_required: true
+  - id: bachelor-construction-management
+    name: Bachelor of Construction Management
+    stream: personal-learning
+    category: accredited-qualification
+    status: planned-or-active
+    next_action: Confirm institution, entry pathway, study load, and commencement requirements.
+    verification_required: true
+  - id: diploma-business
+    name: Future Diploma of Business
+    stream: personal-learning
+    category: accredited-qualification
+    status: future
+    next_action: Define the business capability gap this qualification should address before enrolling.
+    verification_required: true
+  - id: plumbing-registration
+    name: Regaining plumbing registration
+    stream: personal-learning
+    category: regulated-registration
+    status: active
+    next_action: Confirm current regulator pathway, evidence, supervision, insurance, and renewal requirements.
+    verification_required: true
+    approval_required: human
+  - id: business-courses
+    name: Business courses and professional development
+    stream: personal-learning
+    category: professional-development
+    status: active
+    next_action: Maintain a shortlist and select only courses tied to a current business capability gap.
+    verification_required: false
+  - id: jordan-peterson-academy
+    name: "Jordan Peterson Academy: science and philosophy"
+    stream: personal-learning
+    category: personal-enrichment
+    status: active
+    next_action: Create a weekly reading and reflection block; keep notes separate from accredited records.
+    verification_required: false
+    accredited: false
+tracking_fields:
+  - provider
+  - module
+  - prerequisite
+  - assessment_date
+  - estimated_hours
+  - protected_study_block
+  - evidence_link
+  - status
+  - next_action
+  - last_reviewed

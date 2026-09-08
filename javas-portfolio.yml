@@ -1,0 +1,75 @@
+version: 1
+owner: liambking4566
+currency: AUD
+jurisdiction: AU
+streams:
+  - id: kings-construction
+    name: Kings Construction & Property Solutions
+    kind: operating-business
+    purpose: Handyman, maintenance, and property solutions.
+    priority: cash-flow-and-delivery
+    systems:
+      - leads
+      - quoting
+      - scheduling
+      - job-delivery
+      - invoicing
+      - customer-follow-up
+    measures:
+      - qualified-leads
+      - quote-conversion
+      - booked-work
+      - utilisation
+      - job-margin
+      - receivables
+  - id: academy-studio
+    name: Kings Development Academy / Projects Studio
+    kind: education-and-digital-products
+    purpose: Tutorials, training, construction education, and digital products.
+    priority: compoundable-income
+    systems:
+      - curriculum
+      - content
+      - product-pipeline
+      - audience
+      - sales
+      - customer-support
+    measures:
+      - products-shipped
+      - content-cadence
+      - audience-growth
+      - sales
+      - support-load
+  - id: praetorium
+    name: Future Praetorium Construction & Developments
+    kind: future-company
+    purpose: Construction management and property development capability.
+    priority: capability-and-readiness
+    systems:
+      - competency-map
+      - project-controls
+      - feasibility
+      - professional-network
+      - capital-readiness
+    measures:
+      - competencies-evidenced
+      - feasibility-pipeline
+      - systems-maturity
+      - capital-readiness
+  - id: personal-learning
+    name: Personal and education portfolio
+    kind: personal
+    purpose: Qualifications, registration, science, philosophy, and workload management.
+    priority: capability-and-completion
+    systems:
+      - qualifications
+      - registration
+      - study
+      - goals
+      - workload
+    measures:
+      - assessment-progress
+      - study-consistency
+      - registration-milestones
+      - applied-evidence
+      - overdue-commitments

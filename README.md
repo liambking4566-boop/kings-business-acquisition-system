@@ -4,6 +4,17 @@
 
 This system turns a rough business opportunity into a disciplined pilot. It is designed to avoid buying stock, tools, or advertising before confirming demand, margin, and delivery capability.
 
+## JAVAS portfolio layer
+
+The repository now also contains the first implementation slice of JAVAS, the owner's business and learning coordination system:
+
+- [`JAVAS_SYSTEM.md`](JAVAS_SYSTEM.md) — operating rules, priority policy, capacity model, and approval boundaries;
+- [`javas-portfolio.yml`](javas-portfolio.yml) — Kings Construction, Kings Development Academy / Projects Studio, Future Praetorium, and personal-learning streams;
+- [`javas-learning-plan.yml`](javas-learning-plan.yml) — qualifications, plumbing registration, business courses, and Jordan Peterson Academy tracking;
+- [`javas-master.agent.md`](javas-master.agent.md) — routing and response contract for the JAVAS master agent.
+
+JAVAS complements the opportunity-validation agents below. It does not replace owner approval or professional advice for regulated, financial, legal, or licensing decisions.
+
 ## How to use it in GitHub
 
 1. Create an issue using the **Business opportunity** form.
